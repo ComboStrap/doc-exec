@@ -54,10 +54,7 @@ release:
     owner: combostrap
     name: doc-exec
     # Overwrite will delete
-    overwrite: false
-    # Appends artifacts to an existing release with matching tag, useful when `overwrite` is set to `false`.
-    update:
-      enabled: true
+    overwrite: true
     # We create the tag
     skipTag: true
     # When this is a draft, it won’t be seen by the public unless it’s published.
